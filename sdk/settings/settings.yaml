@@ -1,0 +1,7 @@
+defaultLocale: en
+localizedSettings:
+  displayName: React Canvas
+  pronunciation: React Canvas
+  voice: female_1
+projectId: YOUR-PROJECT-ID-HERE
+usesInteractiveCanvas: true

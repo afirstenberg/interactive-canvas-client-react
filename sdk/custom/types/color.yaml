@@ -1,0 +1,41 @@
+synonym:
+  acceptUnknownValues: true
+  entities:
+    aqua:
+      synonyms:
+      - aqua
+    black:
+      synonyms:
+      - black
+    blue:
+      synonyms:
+      - blue
+    brown:
+      synonyms:
+      - brown
+    green:
+      synonyms:
+      - green
+    orange:
+      synonyms:
+      - orange
+    red:
+      synonyms:
+      - red
+    ruby:
+      synonyms:
+      - ruby
+    scarlet:
+      synonyms:
+      - scarlet
+    violet:
+      synonyms:
+      - violet
+      - purple
+    white:
+      synonyms:
+      - white
+    yellow:
+      synonyms:
+      - yellow
+  matchType: FUZZY_MATCH

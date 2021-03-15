@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-size: 72px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Color svg {
+  width: 200px;
+  height: 200px;
+}
+
+.ColorButton {
+  font-size: 64px;
+  margin: 4px;
+  border-radius: 20px;
+}
+
+.Number ul {
+  text-align: left;
+  font-size: 0.75em;
+}

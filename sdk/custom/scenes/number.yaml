@@ -1,0 +1,18 @@
+conditionalEvents:
+- condition: scene.slots.status == "FINAL"
+  handler:
+    webhookHandler: showNumber
+  transitionToScene: number
+intentEvents:
+- intent: requestColor
+  transitionToScene: color
+slots:
+- commitBehavior:
+    writeSessionParam: number
+  name: number
+  promptSettings:
+    initialPrompt:
+      webhookHandler: promptNumber
+  required: true
+  type:
+    name: actions.type.Number

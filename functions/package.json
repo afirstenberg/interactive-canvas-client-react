@@ -1,0 +1,20 @@
+{
+  "name": "react-canvas-webhook",
+  "description": "webhook for react-canvas",
+  "scripts": {
+    "serve": "firebase emulators:start",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "firebase-admin": "^9.4.2",
+    "firebase-functions": "^3.13.1",
+    "multivocal": "^0.16.0"
+  },
+  "private": true
+}

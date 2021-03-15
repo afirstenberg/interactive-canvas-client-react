@@ -1,0 +1,7 @@
+intentEvents:
+- intent: requestColor
+  transitionToScene: color
+- intent: requestNumber
+  transitionToScene: number
+onEnter:
+  webhookHandler: welcome

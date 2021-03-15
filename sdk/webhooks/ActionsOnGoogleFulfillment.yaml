@@ -1,0 +1,9 @@
+handlers:
+- name: welcome
+- name: color
+- name: showColor
+- name: promptNumber
+- name: showNumber
+httpsEndpoint:
+  baseUrl: https://YOUR-WEBHOOK-HERE.EXAMPLE.COM/webhook
+  endpointApiVersion: 2
