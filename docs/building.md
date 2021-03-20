@@ -243,28 +243,32 @@ via keyboard and mouse in the simulator.
 
 If you make changes, you'll need to take some steps to re-build and/or redeploy.
 
-If you edit the React app:
+#### If you edit the React app:
 
-    1. Rebuild with `npm run build`
-    2. Redeploy with `firebase deploy --only hosting`
+1. Rebuild with `npm run build`
+2. Redeploy with `firebase deploy --only hosting`
 
-If you edit the webhook:
+#### If you edit the webhook:
 
-    1. Redeploy with `firebase deploy --only functions`
+1. Redeploy with `firebase deploy --only functions`
+
+#### Updating Actions Builder
 
 If you change the scenes, intents, types, or other configurations in the 
 Actions Builder using the web, you don't need to make any changes but you may 
 wish to update your local copy of the configuration:
 
-    1. Change to the "sdk" directory
-    2. Download with `gactions pull`
+1. Change to the "sdk" directory
+2. Download with `gactions pull`
+
+#### Updating Actions Builder pulled files
 
 If, instead, you make those configuration changes using the files under `sdk`,
 you need to send them to Google and enable the preview version of them:
 
-    1. Change to the "sdk" directory
-    2. Redeploy with `gactions push`
-    3. Enable these versions for preview by switching (or reloading) the "Testing"
-       tab or running `gactions deploy preview`
+1. Change to the "sdk" directory
+2. Redeploy with `gactions push`
+3. Enable these versions for preview by switching (or reloading) the "Testing"
+   tab or running `gactions deploy preview`
 
 

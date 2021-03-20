@@ -499,8 +499,8 @@ httpsEndpoint:
 
 ### sdk/actions/actions.yaml
 
-Interactive Canvas is only available for limited verticals (or "Built In Intents"
-- BII) including the "play a game" action.
+Interactive Canvas is only available for limited verticals 
+(or "Built In Intents" - BII) including the "play a game" action.
 
 ```yaml
   actions.intent.PLAY_GAME: {}

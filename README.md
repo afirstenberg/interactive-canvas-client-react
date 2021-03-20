@@ -7,8 +7,15 @@ It was bootstrapped from [Create React App](https://github.com/facebook/create-r
 and still maintains many legacies that I didn't bother to delete. I'll focus
 on what is done specifically for the Interactive Canvas.
 
-More information:
+More information about this project:
 
 * [Building and Running](docs/building.md) this project using Firebase
 * [Walk through](docs/walkthrough.md) of the directory structure and files
+  
+More information about the technologies used:
 
+* [The Interactive Canvas](https://developers.google.com/assistant/interactivecanvas)
+  for Actions on Google
+* [React.js](https://reactjs.org/)
+* [multivocal](https://multivocal.info/)
+* [Firebase](https://firebase.google.com/)
